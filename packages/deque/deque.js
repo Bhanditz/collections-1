@@ -1,12 +1,11 @@
 "use strict";
 
-var GenericCollection = require("./generic-collection");
-var GenericOrder = require("./generic-order");
-var GenericOrder = require("./generic-order");
+var GenericCollection = require("@collections/common/generic-collection");
+var GenericOrder = require("@collections/common/generic-order");
+var Iterator = require("@collections/common/iterator");
+var copyProperties = require("@collections/common/copy");
 var ObservableRange = require("pop-observe/observable-range");
 var ObservableObject = require("pop-observe/observable-object");
-var Iterator = require("./iterator");
-var copyProperties = require("./copy");
 var equalsOperator = require("pop-equals");
 
 // by Petka Antonov
