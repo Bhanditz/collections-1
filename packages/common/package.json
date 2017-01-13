@@ -1,0 +1,35 @@
+{
+  "name": "@collections/common",
+  "version": "2.0.3",
+  "description": "Data structures with idiomatic JavaScript collection interfaces",
+  "homepage": "http://github.com/kriskowal/collections",
+  "author": "Kris Kowal <kris@cixar.com> (http://github.com/kriskowal)",
+  "keywords": [
+    "collections",
+    "data structures",
+    "observable"
+  ],
+  "bugs": {
+    "mail": "kris@cixar.com",
+    "url": "http://github.com/kriskowal/collections/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/kriskowal/collections/master/LICENSE.md"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/kriskowal/collections.git"
+  },
+  "dependencies": {
+    "pop-clone": "^1.0.1",
+    "pop-compare": "^1.0.0",
+    "pop-equals": "^1.0.0",
+    "pop-has": "^1.0.0",
+    "pop-observe": "^2.0.2",
+    "pop-zip": "^1.0.0",
+    "weak-map": "^1.0.4"
+  }
+}
